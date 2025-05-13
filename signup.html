@@ -19,7 +19,7 @@
 <body>
     <!-- Header -->
 
-     <header>
+    <header>
         <a href="index.html">
             <h1 id="logo">Love Running</h1>
         </a>
@@ -32,10 +32,40 @@
                 <li><a href="signup.html" class="active">Sign Up</a></li>
             </ul>
         </nav>
-     </header>
+    </header>
 
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main>
+        <section id="signup">
+            <form action="https://formdump.codeinstitute.net" method="POST" id="signup-form">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's get you signed up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" class="text-input" required>
+                <br>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" class="text-input" required>
+                <br>
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" class="text-input" required>
+                <br>
+                <div class="radio-buttons">
+                    <div>
+                        <label for="road">Road</label>
+                        <input type="radio" id="road" name="running_preference" value="road" required checked>
+                    </div>
+                    <div>
+                        <label for="trail">Trail</label>
+                        <input type="radio" id="trail" name="running_preference" value="trail" required>
+                    </div>
+                    <div>
+                        <label for="both">Both</label>
+                        <input type="radio" id="both" name="running_preference" value="both" required>
+                    </div>
+                </div>
+                <button type="submit" id="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
 
     <!-- Footer Section -->
     <footer>
