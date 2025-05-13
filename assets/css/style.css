@@ -104,7 +104,13 @@ main {
 #benefits p {
     padding: 0 20px;
 }
-
+/* Reasons image */
+#circle-cover-bg {
+    background: url('../images/reasons-image.webp') no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+}
 /* Footer */
 #social-networks {
     text-align: center;
